@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
 
+  /**
+   * Otin Route käyttöön, jotta navigointi olisi helpompaa
+   */
   return (
     <Router>
       <Routes>

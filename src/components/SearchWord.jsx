@@ -2,6 +2,10 @@ import WordsService from "../services/words";
 import { useState } from "react";
 import BackButton from "./BackButton";
 
+/**
+ * Tämä komponentti hoitaa sanan etsimisen tietokannasta
+ * @returns 
+ */
 const SearchWord = () => {
   const [wordSearch, setWordSearch] = useState('');
   const [word, setWord] = useState('');

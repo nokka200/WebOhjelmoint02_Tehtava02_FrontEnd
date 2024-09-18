@@ -2,6 +2,10 @@ import { useState } from "react";
 import WordsService from "../services/words";
 import BackButton from "./BackButton";
 
+/**
+ * Tämä komponentti mahdollistaa sanan lisäämisen tietokantaan
+ * @returns Komponentit
+ */
 const AddWord = () => {
   const [finnishWord, setFinnishWord] = useState("");
   const [englishWord, setEnglishWord] = useState("");

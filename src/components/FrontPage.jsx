@@ -1,5 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 
+/**
+ * Tämä komponentti toimii React app etusivuna
+ * @returns 
+ */
 const FrontPage = () => {
   const navigate = useNavigate();
   
